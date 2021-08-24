@@ -1,0 +1,89 @@
+body
+{
+  text-align: center;
+  margin: auto;
+  background-color: #3FC1C9;
+
+  margin-top: -27px;
+  /* margin-top: inherit; */
+  /* margin-top: -23px; */
+}
+h1
+{
+  font-size: 2.5rem;
+}
+.main-body
+{
+  background-color: #3FC1C9;
+}
+label
+{
+  display: block;
+  padding: 1rem;
+  font-size: 2.5rem;
+  padding-top: 3rem;
+}
+.heading
+{
+  display: block;
+  margin: auto;
+  padding-top: 45px;
+  background-color:#252A34;
+  height: 9.3rem;
+
+/* margin-top: 0.rem; */
+  /* height:44px; */
+/* width: auto; */
+color: white;
+
+}
+#initialPrice
+{
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+#quantityStocks
+{
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+
+}
+#currentPrice
+{
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+
+
+}
+input
+{
+  /* margin: auto; */
+border-radius: 1.3rem;
+padding:0.5rem;
+font-size: 1.5rem;
+margin-top: 23px;
+border-color: #170055;
+/* padding-top: 0.5rem; */
+}
+button
+{
+  border-radius: 1rem;
+  padding:0.5rem;
+  font-size: 1.5rem;
+text-align: center;
+background-color: #FC5185;
+border-color: #170055;
+/* color: #364F6B; */
+
+}
+#outputBox
+{
+  margin-top:1rem;
+  font-size: 2rem;
+}
