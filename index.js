@@ -19,7 +19,7 @@ function submitHandler()
 
 function profitOrLoss(initial,quantity,current)
 {
-  if(initial>current)
+  if(initial>current&&quantity>0)
   {
     //loss
 
@@ -28,13 +28,18 @@ var lossPercentage=((loss/initial)*100).toFixed(2);
 showOutput("Here Loss is "+loss+ " and Loss Percentage is "+lossPercentage+"%");
 
   }
-  else if(current>initial)
+  else if(current>initial&&quantity>0)
   {
     //tie
     var profit=(current-initial)*quantity;
 var profitPercentage=((profit/initial)*100).toFixed(2);
 // console.log("")
 showOutput("Here Profit is "+profit+" and Profit Percentage is "+profitPercentage +"%");
+
+  }
+  else if(quantity<0)
+  {
+    showOutput("Enter valid quantity stocks");
 
   }
   else
